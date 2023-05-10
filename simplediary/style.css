@@ -1,0 +1,99 @@
+/*
+ * Name:    Brandon Mitchell
+ * Desription:  CSS to make things look nice.  CSS is done a bit 
+ *              inconsistentely, so I would like to clean it up for my cemetery
+ *              app.
+ */            
+
+body {
+    font-size: 16px;
+    background: #f9f9f9;
+    background-color: #edf1f7;
+    font-family: "Segoe UI", "Helvetica Neue", Arial, sans-serif;
+}
+h2 {
+    text-align: center;
+    text-decoration: underline;
+}
+textarea {
+    width: 100%;
+    box-sizing: border-box;
+    border-radius: 2px;
+    border: 1px solid #ccc;
+    padding: 10px;
+    display: block;
+    resize: none;
+    font-family: inherit;
+    font-size: 14px;
+}
+form {
+    width: 300px;
+    background: #d3e0f5;
+    padding: 15px 40px 40px;
+    border: 1px solid #ccc;
+    margin: 50px auto 0;
+    border-radius: 5px;
+}
+input[type="submit"] {
+    font-size: 110%;
+    font-weight: 100;
+    background: #006dcc;
+    border-color: #016BC1;
+    color: #fff;
+    margin-top: 10px;
+    cursor: pointer;
+}
+input[type="submit"]:hover {
+    background: #0165b6;
+}
+input[type="text"], input[type="password"] {
+    float: right;
+}
+button.topButton {
+    font-size: 110%;
+    font-weight: 100;
+    background: #006dcc;
+    border-color: #016BC1;
+    color: #fff;
+    margin-top: 10px;
+    cursor: pointer;
+    position: fixed;
+    right: 10px;
+    top: 5px;
+}
+button.topButton:hover {
+    background: #0165b6;
+}
+.secondButton {
+    margin-right: 80px;
+}
+table {
+    width: 100%;
+    text-align: center;
+}
+.date {
+    font-size: 80%;
+    text-align: right;
+}
+.name {
+    position: fixed;
+    left: 10px;
+    top: 5px;
+}
+.roundBox {
+    border-radius: 10px;
+    border: 2px solid #808a9c;
+    background-color: #ccd4e0;
+    padding: 20px; 
+    width: 65%;
+    height: auto;  
+    margin: auto;
+}
+.error {
+    color: red;
+    font-size: 90%;
+}
+.success {
+    color: green;
+    font-size: 90%;
+}
